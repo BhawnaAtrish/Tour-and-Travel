@@ -1,0 +1,12 @@
+Steps to run the project:
+
+NOte:  Install Xampp if not installed
+
+
+# Paste site folder in xampp/htdocs/
+# Open a browser and go to URL “http://localhost/phpmyadmin/”
+# Then, click on the databases tab
+# Create a database naming “airlines2” and then click on the import tab
+# Click on browse file and select “airlines2.sql” file which is inside “DATABASE” folder
+
+# Open a browser and go to URL “http://localhost/demo/hompage.html”

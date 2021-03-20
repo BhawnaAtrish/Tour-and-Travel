@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>registeration</title>
+	<style>
+	input{width:250px; 
+		height:30px;}
+		input[type=text] {
+  padding:10px;
+  border:2;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+.back{
+    background-image: url(BACK2.jpg);
+}
+input[type=password] {
+  padding:10px;
+  border:2;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+.first{
+	background-color:#D0ECE7;
+}
+ul{
+  list-style-type: none;
+  float:right;
+  margin-top:20px;
+}
+ul li{
+display:inline-block;
+size: 10px;
+}
+ul li a{
+text-decoration:none;
+color:#000;
+padding:5px 20px;
+border:1px solid transparent;
+transition:0.6s ease;
+size: 10px;
+font-size: 20px;
+}
+ul li a:hover{
+background-color:#fff;
+color:#000;
+}
+ul li.active a{
+background-color:#fff;
+color:#000;
+}
+input[type=submit]{
+	font-size: 30px;
+  padding:5px;
+  border:10px;
+  border-style:unset;
+  border-color:#ffffff;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  border-bottom: solid;
+  width: 250px;
+  height: 50px;
+  border-top-style: groove;
+   border-left: ridge;
+  border-right: ridge;
+}
+a:hover{
+	background-color: white;
+}
+a{
+	color: red;
+  text-decoration: none;
+  text-transform: uppercase;
+ 
+  color: red;
+  padding: 0.5em 1em;
+  size: 10px;
+  text-shadow: inherit;
+  font-size: 40px;
+}
+input:hover{
+	background-color: grey;
+}
+img{
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+	</style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+  <div class="first">
+  <header>
+    <img src="logoc.png" height="45" width="250">
+    <ul> 
+      <li><a href="tour.html">HOME&nbsp<i class="fa fa-home"></i></a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="blog.html">BLOG</a></li>
+      <li class="active"><a href="#">REGISTER&nbsp<i class="fa fa-sign-out"></i></a></li>
+      <!--<li><a href="booking.html">BOOK NOW</a></li>-->
+      <li><a href="loginmain.html">LOGIN&nbsp<i class="fa fa-sign-in"></i></a></li>
+    </ul>
+  </header>
+	<center>
+	<center><br>
+    <div class="back">
+    <center><br><br><br><br><a href="loginmain.html">IF REGISTERED CLICK HERE !</a><br><br>
+		<form action="sign.php" method="post">
+      <font color="white">
+	 <h2>USERNAME-
+	<input type="text" name="username"><br><br><br>
+	PASSWORD-
+	<input type="password" name="password"><br><br><br><br>
+	<input type="submit" value="SIGN UP"><br><br><br>
+</h2><br><br>
+</form>
+</center> 
+</div>
+</body>
+</html>

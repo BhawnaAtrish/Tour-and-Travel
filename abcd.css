@@ -1,0 +1,199 @@
+/* body
+{
+background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(tick.jpg);
+background-size: cover;
+background-position: center;
+background:repeat:repeat;
+} */
+*{
+    margin:0;
+    padding:0;
+    font-family:Century Gothic;
+    }
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(mainback.png);
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+    position: relative;
+    }
+.booking-form-box
+{
+max-width: 350px;
+border: 1px solid #ced4da;
+margin: 10% auto 0;
+}
+.radio-btn
+{
+margin: 0 20px;
+}
+.radio-btn .btn
+{
+margin: 20px 10px 20px 0;
+box-shadow: none;
+}  
+.radio-btn .btn::after
+{
+content: '';
+height: 15px;
+width: 15px;
+top: -2px;
+left: -1px;
+background-color: #fff;
+position: relative;
+display: inline-block;
+border: 3px solid #fff;
+visibility: visilble;
+border-radius: 50%;
+}
+.radio-btn .btn:checked::after
+{
+content: '';
+background-color: #000;
+transition: 0.5s;
+}
+.radio-btn span
+{
+color: #fff;
+margin-right: 5px;
+font-size: 12px;
+}
+.booking-form
+{
+padding: 0 20px 20px;
+}
+.booking-form label
+{
+margin-bottom:5px;
+margin-top: 10px;
+font-size: 12px;
+color:#fff;
+}
+input::placeholder
+{
+color: #fff !important;
+}
+.input-grp
+{
+width: 151px;
+display: inline-block;
+}
+/* .form-control
+{
+font-size: 12px!important;
+border-radius: 0!important;
+color: #fff!important;
+background: transparent!important;
+box-shadow:none!important; 
+} */
+.select-date::webkit-inner-spin-button,
+.select-date::webkit-outer-spin-button
+{
+-webkit-appearance: none;
+margin: 0; 
+}
+.select-date::-webkit-calender-picker-indicator
+{
+background: transparent!important;
+}
+.custom-select
+{
+color: #fff!important;
+font-size: 12px!important;
+border: 1px solid #ced4da!important;
+box-shadow: none!important;
+border-radius: 0! important;
+background: transparent!important;
+}
+.custom-select option
+{
+color: #333;
+}
+.flight
+{
+width: 100%;
+padding:9px 0!important;
+border: 1px solid #ced4da!important;
+background: transparent!important;
+box-shadow: none!important;
+border-radius: 0!important;
+color: #fff;
+}
+.flight:hover
+{
+background:#fff!important;
+color:#000!important;
+transition:0.5s;
+}
+ul{
+    float:right;
+    list-style-type:none;
+    margin-top:20px;
+    }
+    ul li{
+    display:inline-block;
+    }
+    ul li a{
+    text-decoration:none;
+    color:#fff;
+    padding:5px 20px;
+    border:1px solid transparent;
+    transition:0.6s ease;
+    }
+    ul li a:hover{
+    background-color:#fff;
+    color:#000;
+    }
+    ul li.active a{
+    background-color:#fff;
+    color:#000;
+    }
+
+    .jumbotron {
+        background-color: #0066cc; 
+        color: #ffffff;
+    }
+    /* Add a dark blue background color with a little bit see-through */ 
+    .navbar {
+        margin-bottom: 0;
+        background-color: #0066cc;
+        border: 0;
+        font-size: 18px !important;
+        letter-spacing: 2px;
+        opacity: 0.9;
+    }
+    /* Add light blue color to all navbar links */
+    .navbar li a, .navbar .navbar-brand {
+        color: #00ccff !important;
+    }
+    /* On hover, the links will turn white */
+    .navbar-nav li a:hover, .navbar-nav li.active a {
+        color: #0000ff !important;
+        background-color: #fff !important;
+    }
+    
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+        color: #fff !important;
+    }
+    #homepage {
+        background-color: #ccccff;
+        width: 800px;
+        font-size: 16px;
+        height: 600px;
+    }
+    input::-webkit-input-placeholder {
+        color: #555;
+      }
+      
+      input:-moz-placeholder { 
+        color: #555;
+      }
+      
+      input::-ms-input-placeholder  { 
+        color: #555;
+      }
+      .text1{
+        background-color: #000;
+        background-color: #ffffff;
+      }
